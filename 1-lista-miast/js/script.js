@@ -15,7 +15,7 @@ const list = document.createElement("ol"); // create ol list
 console.log(list);
 
 // loop for create li elements in ol
-for (i = 0; i <= cities.length - 1; i++) {
+for (let i = 0; i < cities.length; i++) {
   const li = document.createElement("li"); // create li element.
 
   li.innerHTML = cities[i]; // assigning text to li using array value.
