@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+#uczniowie {
+  display: grid;
+  justify-items: end;
+  justify-content: space-around;
+}
+
+.uczen {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  background-color: rgb(240, 240, 240);
+  width: 70px;
+  height: 30px;
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+input[type="text"] {
+  width: 210px;
+  height: 30px;
+  padding: 5px;
+}
+
+#uczniowie div h2 {
+  text-transform: uppercase;
+  padding: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+
+#title {
+  margin: 20px auto;
+  font-size: 12px;
+  display: flex;
+}
+
+#title .uczen-dane {
+  margin-right: 3rem;
+}
+
+#title .tytul:first-child {
+  width: 100px;
+}
+
+#title .tytul {
+  width: 70px;
+  text-align: center;
+}
+
+#title .zajecia-dodatkowe {
+  width: 100px;
+  text-align: center;
+}
+
+#title .srednia {
+  margin-left: 2rem;
+}
+
+#oblicz {
+  margin: 2rem 0;
+  padding: 0.7rem 2rem;
+  border: 1px solid rgb(107, 66, 5);
+  background-color: rgb(255, 147, 47);
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
